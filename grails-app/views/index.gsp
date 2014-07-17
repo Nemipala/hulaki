@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>My First Program</title>
+		<title>hulaki</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -82,11 +82,8 @@
 	</head>
 	<body>
 		<div id="controller-list" role="navigation">
-			<h2>Available Controllers:</h2>
 				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
+						<li class="controller"><g:link controller="request">Save request/responses</g:link></li>
 				</ul>
 			</div>
 		</div>

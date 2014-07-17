@@ -1,10 +1,8 @@
 package gccount
 
 class User {
-	String name;
-	String request;
-	String response;
 	String username;
+    String password;
     static constraints = {
     }
 }

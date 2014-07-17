@@ -19,7 +19,7 @@ environments {
         dataSource {
 		dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             driverClassName = "com.mysql.jdbc.Driver"
-            url = "jdbc:mysql://localhost:8080/gccount"
+            url = "jdbc:mysql://localhost:3306/gccount"
             username = "root"
             password = "deerwalk"
 
