@@ -16,8 +16,8 @@
 		<g:message code="request.request.label" default="Request" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="request" required="" value="${requestInstance?.request}"/>
-    <button type="button" name="btn" class="btn btn-primary" onclick="getResponse()"> Find</button>
+	<g:textField name="request" required="" id="requestUrl" value="${requestInstance?.request}"/>
+    <button type="button" name="requestUrl" class="buttons" onClick="getData();"> Request</button>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: requestInstance, field: 'response', 'error')} required">
@@ -25,7 +25,7 @@
 		<g:message code="request.response.label" default="Response" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="response" required="" value="${requestInstance?.response}"/>
+	<textArea name="response" required="" id="response" value="${requestInstance?.response}"></textArea>
 
 </div>
 
@@ -34,7 +34,6 @@
 		<g:message code="request.username.label" default="Username" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="username" required="" value="${requestInstance?.username}"/>
+	<g:textField name="username" required="" value="amamaharjan"/>
 
 </div>
-

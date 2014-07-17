@@ -6,5 +6,6 @@ class Request {
     String response;
     String username;
     static constraints = {
+        response type : 'text'
     }
 }
