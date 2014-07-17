@@ -1,0 +1,7 @@
+package gccount
+
+class User {
+
+    static constraints = {
+    }
+}
