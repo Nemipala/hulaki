@@ -1,11 +1,10 @@
 /* FONT STACK */
 body,
-input, select, textarea {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+input, select {
+	font-family: "times new roman", sans-serif; /*"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
 }
-
-h1, h2, h3, h4, h5, h6 {
-	line-height: 1.1;
+textarea{
+    font-family: "times new roman", sans-serif;
 }
 
 /* BASE LAYOUT */
@@ -251,7 +250,12 @@ input, select, textarea {
 	font-size: 1em;
 	padding: 0.2em 0.4em;
 }
-
+textarea{
+    background-color:green;
+    	border: 1px solid #cccccc;
+    	font-size: 12px;
+    	padding: 0.2em 0.4em;
+}
 select {
 	padding: 0.2em 0.2em 0.2em 0;
 }
@@ -261,8 +265,8 @@ select[multiple] {
 }
 
 textarea {
-	width: 250px;
-	height: 150px;
+	width: 500px;
+	height: 500px;
 	overflow: auto; /* IE always renders vertical scrollbar without this */
 	vertical-align: top;
 }

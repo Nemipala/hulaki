@@ -25,7 +25,7 @@
 		<g:message code="request.response.label" default="Response" />
 		<span class="required-indicator">*</span>
 	</label>
-	<textArea name="response" required="" id="response" value="${requestInstance?.response}"></textArea>
+	<textArea name="response" required="" id="response" cols="300" rows="100" value="${requestInstance?.response}"></textArea>
 
 </div>
 

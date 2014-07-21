@@ -5,6 +5,8 @@ class Request {
     String request;
     String response;
     String username;
+
+    static mapWith="mongo"
     static constraints = {
         response type : 'text'
     }
