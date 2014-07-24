@@ -16,6 +16,9 @@ class RequestController {
     }
 
     def show(Request requestInstance) {
+        Object res = requestInstance.response;
+
+        requestInstance.response = res;
         respond requestInstance
     }
 

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="infozip-symlinks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/git/t/t5003/infozip-symlinks.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

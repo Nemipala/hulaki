@@ -20,17 +20,17 @@
 			<g:if test="${flash.message}">
 				<div class="message" role="status">${flash.message}</div>
 			</g:if>
-			<table>
+			<table class="table table-striped table-hover">
 			<thead>
 					<tr>
 					
-						<g:sortableColumn property="name" title="${message(code: 'request.name.label', default: 'Name')}" />
+						<g:sortableColumn property="name" width="15%" title="${message(code: 'request.name.label', default: 'Name')}" />
 					
 						<g:sortableColumn property="request" title="${message(code: 'request.request.label', default: 'Request')}" />
 					
 						<g:sortableColumn property="response" title="${message(code: 'request.response.label', default: 'Response')}" />
 					
-						<g:sortableColumn property="username" title="${message(code: 'request.username.label', default: 'Username')}" />
+						<g:sortableColumn property="username" width="10%" title="${message(code: 'request.username.label', default: 'Username')}" />
 					
 					</tr>
 				</thead>

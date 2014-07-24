@@ -6,9 +6,10 @@
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'request.label', default: 'Request')}" />
 		<title><g:message code="default.show.label" args="[entityName]" /></title>
+
 	</head>
 	<body>
-		<a href="#show-request" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
+	    <a href="#show-request" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
 			<ul>
 				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
@@ -40,15 +41,19 @@
 					
 				</li>
 				</g:if>
-			
+
 				<g:if test="${requestInstance?.response}">
 				<li class="fieldcontain">
 					<span id="response-label" class="property-label"><g:message code="request.response.label" default="Response" /></span>
 					
-						<span class="property-value" aria-labelledby="response-label"><g:fieldValue bean="${requestInstance}" field="response"/></span>
-					
+						<span class="property-value" aria-labelledby="response-label" id="response">
+				<pre style="word-wrap: break-word; white-space: pre-wrap;">
+
+				<g:fieldValue bean="${requestInstance}" id="response" field="response"/></span>
+				</pre>	
 				</li>
 				</g:if>
+
 			
 				<g:if test="${requestInstance?.username}">
 				<li class="fieldcontain">

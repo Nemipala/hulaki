@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/target/work/plugins/cache-1.1.7/src/cache-1.1.7.iml" filepath="$PROJECT_DIR$/target/work/plugins/cache-1.1.7/src/cache-1.1.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grails-app/grails-app.iml" filepath="$PROJECT_DIR$/grails-app/grails-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/work/plugins/plugins.iml" filepath="$PROJECT_DIR$/target/work/plugins/plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/scaffolding-2.1.2.iml" filepath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/scaffolding-2.1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/work/plugins/tomcat-7.0.54/src/tomcat-7.0.54.iml" filepath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.54/src/tomcat-7.0.54.iml" />
+    </modules>
+  </component>
+</project>
+
