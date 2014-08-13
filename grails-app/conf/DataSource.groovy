@@ -15,15 +15,29 @@ hibernate {
 
 // environment specific settings
 environments {
+		
     development {
+/*			
         dataSource {
 		dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             driverClassName = "com.mysql.jdbc.Driver"
             url = "jdbc:mysql://localhost:3306/hulaki"
             username = "root"
-            password = "deerwalk"
+            password = "mysql55" //CHANGE ME BRO
 
         }
+*/
+
+//		grails { 
+//  			mongo { 
+//    			host ="kahana.mongohq.com"
+//		    	port = 10054 
+//    			username = "prayag.upd@gmail.com"
+//    			password="mongohq1234!"" 
+//    			databaseName = "hulaki" 
+//  			} 
+//		}
+		
     }
     test {
         dataSource {
